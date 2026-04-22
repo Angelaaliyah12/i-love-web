@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Lazy loading for images, iframes, scripts.
+Probably for images outside of the viewport. -->
+<head>
+<img loading="lazy" src="https://picsum.photos/200/300">
+<img loading="lazy" src="https://picsum.photos/200/300">
+<img loading="lazy" src="https://picsum.photos/200/300">
+<img loading="lazy" src="https://picsum.photos/200/300">
+</head>
+
+<main>
+<!-- Prompt an early download of an asset.
+For critical images, e.g. hero images. -->
+<img loading="eager" src="https://picsum.photos/200/300">
+<img loading="eager" src="https://picsum.photos/200/300">
+<img loading="eager" src="https://picsum.photos/200/300">
+<img loading="eager" src="https://picsum.photos/200/300">
+</main>
+
+<footer>
+<img loading="lazy" src="https://picsum.photos/200/300">
+<img loading="lazy" src="https://picsum.photos/200/300">
+<img loading="lazy" src="https://picsum.photos/200/300">
+</footer>
+
+</body>
+</html>
